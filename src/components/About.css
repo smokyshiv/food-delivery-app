@@ -1,0 +1,48 @@
+/* App.css */
+
+.about-section {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    margin-right: 40px;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  .about-images {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .about-images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effects for images */
+  .about-images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
